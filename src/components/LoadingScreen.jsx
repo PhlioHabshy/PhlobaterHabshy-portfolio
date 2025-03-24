@@ -68,8 +68,9 @@ export const LoadingScreen = ({onComplete}) => {
 
     return (
         <div className={`fixed inset-0 z-50 bg-gradient-to-br from-[#0A0F1F] via-[#0F172A] to-[#1E293B] text-black-100 flex flex-col items-center justify-center transition-opacity duration-1000 ${shouldFade ? 'opacity-0' : 'opacity-100'}`}>
-            <div className="mb-4 text-2xl md:text-4xl font-mono font-bold px-4 text-center">
-                <span className="gradient-text">{text}</span> <span className="animate-blink ml-1 gradient-text"> | </span>
+            <div className="mb-4 text-2xl md:text-4xl font-mono font-bold px-4 text-center flex items-center">
+                <span className="gradient-text">{text}</span>
+                <span className="animate-blink text-[#CBB4A7] ml-1">|</span>
             </div>
             <div className="w-[200px] h-[2px] bg-[#CBB4A7]/20 rounded relative overflow-hidden"> 
                 <div className="w-[40%] h-full bg-[#CBB4A7] shadow-[0_0_15px_rgba(203,180,167,0.5)] animate-loading-bar"></div>
