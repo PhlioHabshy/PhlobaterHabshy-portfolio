@@ -69,7 +69,7 @@ export const Projects = () => {
         {
             title: "Freshly Website",
             description: "A full-stack e-commerce platform for Freshly, featuring user authentication, product management, and a seamless shopping experience. Coming soon!",
-            image: "/FreshlyLogoNOBG.png",
+            image: "FreshlyLogoNOBG.png",
             skills: ["Next.js", "Node.js", "MongoDB", "Stripe"],
             githubLink: "#",
             comingSoon: true

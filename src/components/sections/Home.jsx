@@ -20,7 +20,7 @@ export const Home = () => {
             <div className="mb-8 mt-12">
                 <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-[#CBB4A7] shadow-lg">
                     <img 
-                        src="/profile.jpg" 
+                        src="profile.jpg" 
                         alt="Phlobater Habshy" 
                         className="w-full h-full object-cover scale-105 object-[center_40%]"
                     />

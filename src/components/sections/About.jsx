@@ -46,7 +46,7 @@ export const About = () => {
                 <div className="flex justify-center mb-12">
                     <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-[#CBB4A7] shadow-lg">
                         <img 
-                            src="/profile4.jpg" 
+                            src="profile4.jpg" 
                             alt="Phlobater Habshy" 
                             className="w-full h-full object-cover scale-105 object-[center_40%]"
                         />
@@ -105,7 +105,7 @@ export const About = () => {
                         <div className="flex flex-col md:flex-row gap-4 md:gap-8 items-center md:items-start">
                             <div className="w-32 h-32 md:w-48 md:h-48 flex-shrink-0 overflow-hidden rounded-lg bg-white p-0">
                                 <img 
-                                    src="GMU.jpg" 
+                                    src="gmu-logo.png" 
                                     alt="George Mason University" 
                                     className="w-full h-full object-cover rounded-lg"
                                 />
