@@ -1,3 +1,6 @@
+import React from 'react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+
 export const Home = () => {
     const scrollToSection = (sectionId) => {
         const element = document.getElementById(sectionId);
@@ -17,13 +20,32 @@ export const Home = () => {
         <section id="home" 
         className="min-h-screen flex flex-col justify-center items-center relative"
         >
-            <div className="mb-8 mt-12">
+            <div className="mb-8 mt-24 md:mt-12">
                 <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-[#CBB4A7] shadow-lg">
                     <img 
                         src="profile.jpg" 
                         alt="Phlobater Habshy" 
                         className="w-full h-full object-cover scale-105 object-[center_40%]"
                     />
+                </div>
+                {/* New Social Icons Section */}
+                <div className="flex justify-center space-x-4 mt-6">
+                    <a 
+                        href="https://github.com/PhlioHabshy" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-[#CBB4A7] hover:text-white transition-colors duration-300"
+                    >
+                        <FaGithub className="w-8 h-8" />
+                    </a>
+                    <a 
+                        href="https://linkedin.com/in/phlobater-habshy-371087312" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-[#CBB4A7] hover:text-white transition-colors duration-300"
+                    >
+                        <FaLinkedin className="w-8 h-8" />
+                    </a>
                 </div>
             </div>
             <div className="text-center z-10 px-4 max-w-4xl mx-auto">

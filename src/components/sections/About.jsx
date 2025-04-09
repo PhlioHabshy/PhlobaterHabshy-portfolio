@@ -55,11 +55,11 @@ export const About = () => {
                 <div className="space-y-8 text-gray-300 text-center">
                     <p className="text-lg max-w-3xl mx-auto">
                         I am a passionate Computer Science student at Virginia Tech, 
-                        specializing in AI and Machine Learning. 
+                        looking to specialize in AI and Machine Learning. 
                         My journey in technology is driven by a deep curiosity about how machines can learn and adapt to solve complex problems.
                     </p>
                     <p className="text-lg max-w-3xl mx-auto">
-                        My technical expertise spans across multiple programming languages and frameworks:
+                        My technical skills spans across multiple programming languages and frameworks:
                     </p>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
                         {technologies.map((tech, index) => (
@@ -105,7 +105,7 @@ export const About = () => {
                         <div className="flex flex-col md:flex-row gap-4 md:gap-8 items-center md:items-start">
                             <div className="w-32 h-32 md:w-48 md:h-48 flex-shrink-0 overflow-hidden rounded-lg bg-white p-0">
                                 <img 
-                                    src="gmu-logo.png" 
+                                    src="GMU.jpg" 
                                     alt="George Mason University" 
                                     className="w-full h-full object-cover rounded-lg"
                                 />
